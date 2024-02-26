@@ -1,38 +1,398 @@
-.App {
-  text-align: center;
+@charset "utf-8";
+
+.all, .Header, .f_in{
+    max-width: 1420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mainbanner{
+    margin-bottom: 50px;
+}
+.pc{
+    display: none;
+}
+.mo{
+    width: 100%;
+    height: auto;
+}
+.left{
+    width: 20%;
+    box-sizing: border-box;
+    padding: 0 20px;
+    display: flex;
+    font-weight: 700;
+}
+.left p{
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.main_01{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 20px 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.name{
+    width: 50%;
+}
+.name h2{
+    font-weight: 600;
+}
+.text_2{
+    font-weight: 500;
+    font-size: 16px;
+}
+.text_1{
+    font-size: 14px;
+    color: #434863;
+}
+.main_02{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.m2_title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.m2_01{
+    position: relative;
+}
+.m2_01 .m2_title::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 70%;
+    height: 1px;
+    background-color: #434863;
+}
+.m2_title{
+    color: #434863;
+}
+.m2_name{
+    font-size: 18px;
+}
+.m2_02{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.m2_02:last-child{
+    margin-bottom: 0;
+}
+.m2_02 ul{
+    display: flex;
+}
+.m2_02 li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    line-height: 1.5em;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 10px 5px 30px;
+    border-radius: 5px;
+    color: #000;
+    background-color: #ccc;
+}
+.m2_02 li:hover{
+    color: #fff;
+    background-color: #434863;
+}
+.m2_03, .m2_04, .m2_05, .m2_06, .m2_07, .m2_08, .m2_09, .m2_10{
+    position: relative;
+}
+.m2_03::before{
+    position: absolute;
+    left: 7%;
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url(../public/img/html.svg);
+}
+.m2_04::before{
+    position: absolute;
+    left: 7%;
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url(../public/img/css.svg);
+    background-size: 22px 20px;
+}
+.m2_05::before{
+    position: absolute;
+    left: 7%;
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url(../public/img/React-icon.png);
+    background-size: 20px 20px;
+}
+.m2_06::before{
+    position: absolute;
+    left: 7%;
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url(../public/img/jQuery.png);
+    background-size: 20px 20px;
+}
+.m2_07::before{
+    position: absolute;
+    left: 6%;
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url(../public/img/java.svg);
+    background-size: 20px 20px;
+}
+.m2_08::before{
+    position: absolute;
+    left: 9%;
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url(../public/img/git.png);
+    background-size: 20px 20px;
+}
+.m2_09::before{
+    position: absolute;
+    left: 9%;
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url(../public/img/node.png);
+    background-size: 20px 20px;
+}
+.m2_10::before{
+    position: absolute;
+    left: 6%;
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url(../public/img/ts.webp);
+    background-size: 20px 20px;
+}
+.main_03{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 20px;
+}
+.m3_01{
+    position: relative;
+}
+.m3_01 .m2_title::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 60%;
+    height: 1px;
+    background-color: #434863;
+}
+.m3_img img{
+    width: 100%;
+    height: auto;
+}
+.m3_02{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.m3_txt{
+    width: 100%;
+    padding-top: 25px;
+    text-align: center;
+}
+.m3_05{
+    font-size: 35px;
+    font-weight: 500;
+    color: #434863;
+    margin-right: 10px;
+}
+.m3_04{
+    font-size: 23px;
+}
+.m3_06{
+    margin-top: 50px;
+    font-size: 19px;
+    margin-bottom: 45px;
+}
+.m3_07{
+    margin-bottom: 45px;
+    font-size: 17px;
+    line-height: 1.5em;
+}
+button{
+    width: 80px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #434863;
+}
+button:hover{
+    background-color: #69719b;
+}
+.m3_08{
+    margin-bottom: 100px;
+}
+.footer{
+    padding: 20px 0 5px 0;
+    background-color: #e6e9f9;
+}
+.f_in{
+    text-align: center;
+}
+.f_01{
+    font-size: 28px;
+    font-weight: 500;
+}
+.f_02{
+    padding-top: 20px;
+}
+.f_02 a{
+    display: inline-block;
+    padding-left: 24px;
+    background-image: url('../public/img/email_3178158.png');
+    background-position: top 2px left 0;
+    background-size: 18px;
+    background-repeat: no-repeat;
+}
+.f_03 a{
+    display: inline-block;
+    padding-left: 24px;
+    background-image: url('../public/img/phone-call_455705.png');
+    background-position: top 2px left 0;
+    background-size: 18px;
+    background-repeat: no-repeat;
+}
+.f_04 a{
+    color: #000;
+    display: inline-block;
+    padding-left: 24px;
+    background-image: url('../public/img/free-icon-github-logo-25231.png');
+    background-position: top 2px left 0;
+    background-size: 18px;
+    background-repeat: no-repeat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media screen and (min-width: 768px){
+    .m3_02{
+        display: flex;
+    }
+    .m3_img{
+        width: 50%;
+        height: auto;
+    }
+    .m3_txt{
+        width: 50%;
+    }
+    .m2_01 .m2_title::after {
+        left: 15%;
+        width: 80%;
+    }
+    .m3_01 .m2_title::after{
+        left: 20%;
+        width: 75%;
+    }
+    .m3_08{
+        display: flex;
+        flex-direction: row-reverse;
+    }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media screen and (min-width: 1024px){
+    .all{
+        display: flex;
+    }
+    .mainbanner{
+        margin-bottom: 110px;
+    }
+    .pc{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .mo{
+        display: none;
+    }
+    .left{
+        position: absolute;
+        left: 10%;
+        transform: translateY(0);
+        transition: top 0.7s ease-out;
+        flex-direction: column;
+    }
+    .left p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 17px;
+    }
+    .left p:hover{
+        text-decoration: underline;
+        color: #434863;
+    }
+    .main{
+        margin-left: 160px;
+        width: 80%;
+        box-sizing: border-box;
+        padding: 0 30px;
+    }
+    .main_01{
+        font-size: 15px;
+    }
+    .name{
+        width: 20%;
+        margin-right: 80px;
+        text-align: center;
+    }
+    .name .n01{
+        padding-top: 10px;
+    }
+    .text{
+        width: 80%;
+    }
+    .main_02{
+        width: 100%;
+        padding: 30px 0;
+    }
+    .m2_title{
+        font-size: 30px;
+    }
+    .m2_name{
+        font-size: 17px;
+    }
+    .m2_01 .m2_title::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        width: 85%;
+        height: 1px;
+        background-color: #434863;
+    }
+    .m3_01 .m2_title::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        width: 80%;
+        height: 1px;
+        background-color: #434863;
+    }
+    .main_03{
+        width: 100%;
+        padding: 30px 0;
+    }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+@media screen and (min-width: 1420px){}
