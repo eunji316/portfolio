@@ -189,7 +189,6 @@ function App() {
               <div className='m3_txt'>
                 <p className='m3_04'><span className='m3_05'>04</span> 경주월드</p>
                 <p className='m3_06'>프로젝트로 제작한 반응형 페이지입니다.</p>
-                <p className='m3_07'>더미데이터로 출력하는 방식 사용. <br /> 연도별로 모아볼 수 있으며 마우스 hover시 상세보기가 뜨고, 상세보기 클릭시 작품 정보를 확인할 수 있습니다.</p>
                 <div className='m_etc'>
                   <div className='me_01'>
                     <p className='me_in01'>Category</p>
@@ -264,7 +263,7 @@ function App() {
                     </div>
                   </div>
                 </div>
-                <a className='btn' href="https://kyoboproject.netlify.app/" target="_blank">Go</a>
+                <a className='btn' href="https://ustour.netlify.app/" target="_blank">Go</a>
               </div>
             </div>
           </div>
