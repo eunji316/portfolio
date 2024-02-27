@@ -15,14 +15,33 @@
     width: 100%;
     height: auto;
 }
-.left{
-    width: 20%;
+.left_pc{
+    display: none;
+}
+.left_mo{
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+    transition: top 0.3s;
     box-sizing: border-box;
     padding: 0 20px;
-    display: flex;
     font-weight: 700;
 }
-.left p{
+.fixed {
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.left_in {
+    display: flex;
+}
+.left_in p {
+    margin: 0;
+    cursor: pointer;
+}
+.left_mo p{
     cursor: pointer;
     font-size: 16px;
     margin-right: 20px;
@@ -234,14 +253,17 @@
     font-size: 17px;
     line-height: 1.5em;
 }
-button{
+.m_etc{
+    margin-bottom: 45px;
+}
+.btn{
     width: 80px;
     padding: 10px 10px;
     border-radius: 5px;
     color: #fff;
     background-color: #434863;
 }
-button:hover{
+.btn:hover{
     background-color: #69719b;
 }
 .m3_08{
@@ -286,6 +308,49 @@ button:hover{
     background-size: 18px;
     background-repeat: no-repeat;
 }
+.me_01{
+    padding: 10px 20px 0px 20px;
+    display: flex;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #ddd;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 1px solid #69719b;
+}
+.me_01 .me_in01{
+    padding-right: 25px;
+    border-right: 1px solid #3f3f3f;
+}
+.me_01 .me_in02{
+    padding-left: 25px;
+}
+.me_02{
+    padding: 10px 20px 0px 20px;
+    color: #000;
+}
+.me_02 .me_in03{
+    padding: 0 18px;
+    padding-right: 40px;
+}
+.me_02 .me_in04{
+    padding-left: 25px;
+}
+.me_02 .me_in04 a{
+    color: #69719b;
+}
+.me_02 .me_in04 a:hover{
+    color: #434863;
+}
+.m33, .m44, .m55{
+    display: flex;
+}
+.m44 .me_in03{
+    padding: 0 33px;
+}
+.m44 .me_in04{
+    padding: 0 30px;
+}
 
 @media screen and (min-width: 768px){
     .m3_02{
@@ -323,30 +388,42 @@ button:hover{
         width: 100%;
         height: auto;
     }
-    .mo{
+    .mo, .left_mo{
         display: none;
     }
-    .left{
+    .left_pc{
+        display: block;
+        width: 20%;
+        box-sizing: border-box;
+        padding: 0 20px;
         position: absolute;
         left: 10%;
         transform: translateY(0);
         transition: top 0.7s ease-out;
         flex-direction: column;
+        font-weight: 700;
     }
-    .left p{
+    .left_pc p{
+        cursor: pointer;
+        font-size: 16px;
+        margin-right: 20px;
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
         font-size: 17px;
     }
-    .left p:hover{
+    .left_pc p:hover{
         text-decoration: underline;
         color: #434863;
     }
     .main{
         margin-left: 160px;
-        width: 80%;
+        width: 90%;
         box-sizing: border-box;
         padding: 0 30px;
+    }
+    .m3_txt{
+        box-sizing: border-box;
+        padding: 0 50px;
     }
     .main_01{
         font-size: 15px;
@@ -365,6 +442,9 @@ button:hover{
     .main_02{
         width: 100%;
         padding: 30px 0;
+    }
+    .m3_02{
+        padding: 50px 0;
     }
     .m2_title{
         font-size: 30px;
