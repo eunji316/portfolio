@@ -208,43 +208,12 @@ function App() {
                 <a className='btn' href="https://gjworld.netlify.app/" target="_blank">Go</a>
               </div>
             </div>
-            <div className='m3_02'>
-              <div className='m3_img'>
-                <img src='/img/m305.png' />
-              </div>
-              <div className='m3_txt'>
-                <p className='m3_04'><span className='m3_05'>05</span> 록시땅</p>
-                <p className='m3_06'>프로젝트로 제작한 페이지입니다.</p>
-                <p className='m3_07'> 슬릭 슬라이드를 학습하여 활용했습니다. </p>
-                <div className='m_etc'>
-                  <div className='me_01'>
-                    <p className='me_in01'>Category</p>
-                    <p className='me_in02'>Source</p>
-                  </div>
-                  <div className='me_02'>
-                    <div className='m33'>
-                      <p className='me_in03'>HTML</p>
-                      <p className='me_in04'><a href="https://github.com/eunji316/loccitane/blob/master/index.html" target="_blank">index.html</a></p>
-                    </div>
-                    <div className='m44'>
-                      <p className='me_in03'>CSS</p>
-                      <p className='me_in04'><a href="https://github.com/eunji316/loccitane/blob/master/css/style.css" target="_blank">style.css</a></p>
-                    </div>
-                    <div className='m55'>
-                      <p className='me_in03'>SLICK</p>
-                      <p className='me_in04'><a href="https://github.com/eunji316/loccitane/blob/master/js/script.js" target="_blank">script.js</a></p>
-                    </div>
-                  </div>
-                </div>
-                <a className='btn' href="https://loccitane.netlify.app/" target="_blank">Go</a>
-              </div>
-            </div>
             <div className='m3_08'>
               <div className='m3_img'>
                 <img src='/img/m306.png' />
               </div>
               <div className='m3_txt'>
-                <p className='m3_04'><span className='m3_05'>06</span> 울산 관광사이트</p>
+                <p className='m3_04'><span className='m3_05'>05</span> 울산 관광사이트</p>
                 <p className='m3_06'>프로젝트로 제작한 페이지입니다.</p>
                 <p className='m3_07'></p>
                 <div className='m_etc'>
