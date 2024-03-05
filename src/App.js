@@ -184,10 +184,33 @@ function App() {
             </div>
             <div className='m3_08'>
               <div className='m3_img'>
+                <img src='/img/m305.png' />
+              </div>
+              <div className='m3_txt'>
+                <p className='m3_04'><span className='m3_05'>04</span>만화 리스트</p>
+                <p className='m3_06'>리액트로 제작한 반응형 페이지 입니다.</p>
+                <p className='m3_07'>더미데이터로 출력하는 방식 사용. <br /> 장르별로 모아볼 수 있으며, 제목 검색 시 검색한 만화가 출력되고 상세보기 클릭시 상세 내용을 확인 할 수 있습니다.</p>
+                <div className='m_etc'>
+                  <div className='me_01'>
+                    <p className='me_in01'>Category</p>
+                    <p className='me_in02'>Source</p>
+                  </div>
+                  <div className='me_02'>
+                    <div className='m33'>
+                      <p className='me_in03'>React</p>
+                      <p className='me_in04'><a href="https://github.com/eunji316/booklist" target="_blank">github</a></p>
+                    </div>
+                  </div>
+                </div>
+                <a className='btn' href="https://comiclist.netlify.app/" target="_blank">Go</a>
+              </div>
+            </div>
+            <div className='m3_02'>
+            <div className='m3_img'>
                 <img src='/img/m304.png' />
               </div>
               <div className='m3_txt'>
-                <p className='m3_04'><span className='m3_05'>04</span> 경주월드</p>
+                <p className='m3_04'><span className='m3_05'>05</span> 경주월드</p>
                 <p className='m3_06'>프로젝트로 제작한 반응형 페이지입니다.</p>
                 <div className='m_etc'>
                   <div className='me_01'>
@@ -213,7 +236,7 @@ function App() {
                 <img src='/img/m306.png' />
               </div>
               <div className='m3_txt'>
-                <p className='m3_04'><span className='m3_05'>05</span> 울산 관광사이트</p>
+                <p className='m3_04'><span className='m3_05'>06</span> 울산 관광사이트</p>
                 <p className='m3_06'>프로젝트로 제작한 페이지입니다.</p>
                 <p className='m3_07'></p>
                 <div className='m_etc'>
