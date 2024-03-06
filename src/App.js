@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 import app from './firebase';
 import Header from './component/Header';
 
 function App() {
+
   useEffect(() => {
     const mohandleScroll = () => {
       const sidebar = document.querySelector('.left_mo');
@@ -94,6 +95,7 @@ function App() {
                 <li className='m2_05'>React.js</li>
                 <li className='m2_06'>jQuery</li>
                 <li className='m2_07'>JavaScript</li>
+                <li className='m2_08'>Git</li>
               </ul>
             </div>
             <div className='m2_02'>
@@ -101,7 +103,6 @@ function App() {
               <ul>
                 <li className='m2_09'>Node.js</li>
                 <li className='m2_10'>TypeScript</li>
-                <li className='m2_08'>Git</li>
               </ul>
             </div>
             </div>
