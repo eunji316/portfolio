@@ -265,7 +265,7 @@ function App() {
       <div className='footer'>
         <div className='f_in'>
           <p className='f_01'>Contacts</p>
-          <p className='f_02'><a>eunji8498@gmail.com</a></p>
+          <p className='f_02'><a href="mailto:eunji8498@gmail.com">eunji8498@gmail.com</a></p>
           <p className='f_03'><a>010.2250.6626</a></p>
           <p className='f_04'><a href='https://github.com/eunji316'>github</a></p>
         </div>
